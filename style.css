@@ -1,26 +1,4 @@
+@import url("./css/default.css");
 @import url("./css/components/container.css");
 /* @import url("./css/components/header.css"); */
 
-*,
-*::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --body-bg-color: #f4f4f4;
-    --text-color: #2b455e;
-}
-
-:root,
-body {
-    width: 100%;
-    height: 100%;
-    font-family: var(--font-family);
-    margin: 0;
-    background-color: var(--body-bg-color);
-    color: var(--text-color);
-}
